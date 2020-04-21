@@ -7,15 +7,15 @@ We want to better understand which counties might be the most vulnerable to rapi
 ## Data Question: What data and metrics can we use to show and monitor the COVID-19 pandemic in US Counties?
 We’ll use data from the following sources to assess our business question:
 
-Johns Hopkins University Center for Systems Science and Engineering (COVID-19 case, death, recovered data)
+[Johns Hopkins University Center for Systems Science and Engineering](https://github.com/CSSEGISandData/COVID-19) (COVID-19 case, death, recovered data)
 
-New York Times (COVID-19 US county-specific data)
+[New York Times](https://github.com/nytimes/covid-19-data) (COVID-19 US county-specific data)
 
-American Community Survey (US county population data)
+[American Community Survey](https://data.census.gov/cedsci/table?q=United%20States&g=0100000US.050000&tid=ACSST5Y2018.S0101&hidePreview=false&vintage=2018&layer=VT_2018_050_00_PY_D1&cid=DP05_0001E&t=Populations%20and%20People) (US county population data)
 
-US Census (state and county geographic data)
+[US Census](https://www.census.gov/geographies/reference-files/2018/demo/popest/2018-fips.html) (state and county geographic data)
 
-Homeland Infrastructure Foundation-Level(US hospital data)
+[Homeland Infrastructure Foundation-Level](https://hifld-geoplatform.opendata.arcgis.com/datasets/hospitals)(US hospital data)
 
 In our Python Notebooks we’ll use the following packages to conduct our analysis:
   pandas 1.0.3, numpy 1.81.1, plotly 4.60
