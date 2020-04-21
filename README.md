@@ -4,4 +4,18 @@ Covid-19 is a global pandemic that has had an unprecedented impact of global hea
 ## Business Question: Which US counties are the most vulnerable to the pandemic based on population characteristics and hospital bed availability?
 We want to better understand which counties might be the most vulnerable to rapid viral spread so that these states and counties can implement social distancing policies that encourage people to stay at home, while also ensuring systems that allow access to food and essential items are in place.
 
-## Data Question:
+## Data Question: What data and metrics can we use to show and monitor the COVID-19 pandemic in US Counties?
+We’ll use data from the following sources to assess our business question:
+
+Johns Hopkins University Center for Systems Science and Engineering (COVID-19 case, death, recovered data)
+
+New York Times (COVID-19 US county-specific data)
+
+American Community Survey (US county population data)
+
+US Census (state and county geographic data)
+
+Homeland Infrastructure Foundation-Level(US hospital data)
+
+In our Python Notebooks we’ll use the following packages to conduct our analysis:
+  pandas 1.0.3, numpy 1.81.1, plotly 4.60
