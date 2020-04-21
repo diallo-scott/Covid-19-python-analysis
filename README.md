@@ -34,11 +34,13 @@ This chart does provide some insight that allows us to answer our data question.
 
 To determine which counties are most at risk, we may want to let intuition guide our answer.  Counties that have a large percentage of population that is more vulnerable (i.e a large population below 18 or above 60) may experience faster and more fatal spread of the virus and would, therefore, be more at risk.  Counties looking to mitigate the lethal impacts of the virus would also need to have a large number of hospital beds to accomodate their infectred population.  Below are several charts that specify certain counties that may be at risk.
 
-These are the 20 counties with the fewest hospital beds in the US.
+These are the 20 counties with the fewest hospital beds in the US.  These counties may be ill-equipped to provide life-saving services to their infected populations.
 ![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/US%20Counties%20with%20the%20Fewest%20Hospital%20Beds.png)
 
-These are the 20 counties with the highest percentages of elderly population in the US.
+These two charts show 20 counties with the highest percentages of elderly and under 18 populations in the US.  The virus is more deadly for this population, so these counties want to be on high alert and take proactive measures.
 ![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/US%20Counties%20with%20the%20Highest%20Percent%20of%20Population%20Ages%2060%2B.png)
-
-These are the US counties with the highest percentages of population under 18 in the US.
 ![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/US%20Counties%20with%20the%20Highest%20Percent%20of%20Population%20Under%20Age%2018.png)
+
+Although the above charts can provide us with some guidance in identifying at risk counties, it would be more helpful to standardize the data for hospital beds and look at how many hospital beds a county has per 1000 people.  This led us to create a chart that combined population data with number of hospital beds per 1000 people. The axes of the following chart are percent of population above 60 and percent of population under 18.  The size of the bubbles is the number of hospital beds per 1000 people.
+![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/Percentage%20of%20Population%20Under%2018%20and%20Over%2060%20in%20US%20Counties.png)
+The counties most at risk in this chart would be those with large percentages of the population above 60 and below 18 and with a small bubble size (since size of the bubble is hospital beds per 1000).  A few counties that exhibit these properties are: 
