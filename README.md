@@ -22,3 +22,6 @@ In our Python Notebooks we’ll use the following packages to conduct our analys
 
 ## Data Answer
 
+The following refers to the python analysis conducted in [this](htps://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Covid_19.ipynb) link.
+
+When looking for which metrics can be used to monitor the Covid-19 pandemic in US Counties and mitigate the impacts, it makes sense to consider factors such as total population, number of cases and deaths, population under 18, population over 60, and the number of hopsitals and hospital beds.  We can assume that the most populous counties are at risk of the fastest spread, but the impact and death toll caused by rapid spread in metropolitan areas may be mitigated by having a larger number of hospitals.  Thus, to see how all of these factors play together we conducted a correlation analysis, and the results are displayed below.
