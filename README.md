@@ -32,3 +32,13 @@ This chart does provide some insight that allows us to answer our data question.
 
 ## Business Answer
 
+To determine which counties are most at risk, we may want to let intuition guide our answer.  Counties that have a large percentage of population that is more vulnerable (i.e a large population below 18 or above 60) may experience faster and more fatal spread of the virus and would, therefore, be more at risk.  Counties looking to mitigate the lethal impacts of the virus would also need to have a large number of hospital beds to accomodate their infectred population.  Below are several charts that specify certain counties that may be at risk.
+
+These are the 20 counties with the fewest hospital beds in the US.
+![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/US%20Counties%20with%20the%20Fewest%20Hospital%20Beds.png)
+
+These are the 20 counties with the highest percentages of elderly population in the US.
+![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/US%20Counties%20with%20the%20Highest%20Percent%20of%20Population%20Ages%2060%2B.png)
+
+These are the US counties with the highest percentages of population under 18 in the US.
+![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/US%20Counties%20with%20the%20Highest%20Percent%20of%20Population%20Under%20Age%2018.png)
