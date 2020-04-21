@@ -38,9 +38,10 @@ These are the 20 counties with the fewest hospital beds in the US.  These counti
 ![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/US%20Counties%20with%20the%20Fewest%20Hospital%20Beds.png)
 
 These two charts show 20 counties with the highest percentages of elderly and under 18 populations in the US.  The virus is more deadly for this population, so these counties want to be on high alert and take proactive measures.
+
 ![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/US%20Counties%20with%20the%20Highest%20Percent%20of%20Population%20Ages%2060%2B.png)
 ![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/US%20Counties%20with%20the%20Highest%20Percent%20of%20Population%20Under%20Age%2018.png)
 
 Although the above charts can provide us with some guidance in identifying at risk counties, it would be more helpful to standardize the data for hospital beds and look at how many hospital beds a county has per 1000 people.  This led us to create a chart that combined population data with number of hospital beds per 1000 people. The axes of the following chart are percent of population above 60 and percent of population under 18.  The size of the bubbles is the number of hospital beds per 1000 people.
 ![image](https://github.com/diallo-scott/covid-19-county-risk-python-analysis/blob/master/Plots/Percentage%20of%20Population%20Under%2018%20and%20Over%2060%20in%20US%20Counties.png)
-The counties most at risk in this chart would be those with large percentages of the population above 60 and below 18 and with a small bubble size (since size of the bubble is hospital beds per 1000).  A few counties that exhibit these properties are: 
+The counties most at risk in this chart would be those with large percentages of the population above 60 and below 18 and with a small bubble size (since size of the bubble is hospital beds per 1000).
